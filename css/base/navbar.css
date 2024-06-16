@@ -1,0 +1,61 @@
+
+  
+  /*START NAV*/
+  /*==========================================================================*/
+  /* Estilos generales para la barra de navegación */
+  .navbar {
+    background-color: rgba(185, 187, 111, 0.1); /* Color de fondo opcional */
+    height: 175px; /* Altura específica de la barra de navegación */
+    display: flex; /* Usa Flexbox para alinear elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between; /* Espacio entre los elementos para alinear a la izquierda y derecha */
+    padding: 0 20px; /* Espaciado opcional a los lados */
+  }
+  
+  /* Estilos para el contenedor del logo */
+  .navbar-header img {
+    height: 100px; /* Ajusta la altura según tu logo */
+    width: auto; /* Mantiene la proporción del logo */
+  }
+  
+  /* Estilos para el contenedor del menú */
+  .navbar-container {
+    display: flex; /* Usa Flexbox para alinear elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+  }
+  
+  .navbar-nav {
+    list-style-type: none; /* Quita los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Hace que los elementos se alineen horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos de la lista */
+  }
+  
+  /* Estilos para los elementos de la lista */
+  .navbar-item {
+    font-weight: bold;
+    margin: 0 15px; /* Espaciado entre los elementos de la lista */
+    cursor: pointer; /* Cambia el cursor al pasar sobre los elementos */
+  }
+
+  .navbar-item a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+  }
+
+  .navbar-item a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse sobre el enlace */
+  }
+
+  .navbar-item-active a {
+    background-color: rgba(98, 35, 84, 0.83);
+    color: #FFFFFF;
+    padding: 10px 15px 10px 15px; /* arriba | derecha | abajo | izquierda */
+    border-radius: 10px;
+    font-weight: normal;
+  }
+  
+  /*==========================================================================*/
+  /*END NAV*/

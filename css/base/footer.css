@@ -1,0 +1,45 @@
+/*START FOOTER*/
+/*==========================================================================*/
+
+/* Estilos generales para footer */
+.footer {
+    background-color: rgba(98, 35, 84, 0.83); /* Color de fondo opcional */
+    height: 199px; /* Altura específica del footer */
+    display: flex; /* Usa Flexbox para alinear elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 0 20px; /* Espaciado opcional a los lados */
+    justify-content: space-between; /* Distribuye los elementos al inicio y al final */
+    color: #F4F4F4;
+  }
+  
+  /* Estilos para el contenedor de info */
+  .footer-info {
+    flex: 1; /* Ocupa el espacio disponible */
+    display: flex; /* Usa Flexbox para alinear elementos internos */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+  }
+  
+  /* Estilos para el contenedor de contacto */
+  .footer-contact {
+    text-align: left; /* Alinea el texto a la izquierda */
+  }
+  
+  /* Estilos para el contenedor de redes */
+  .footer-redes {
+    flex: 1; /* Ocupa el espacio disponible */
+    display: flex; /* Usa Flexbox para alinear elementos internos */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+  }
+  
+  /* Estilos para contenedor de iconos de redes */
+  .footer-redes-content {
+    /* arriba | derecha | abajo | izquierda */
+    padding: 5px 10px; /* Ajusta el padding horizontalmente */
+    background-color: #FFFFFF;
+    margin-left: 10px;
+  }
+  
+  /*END FOOTER*/
+  /*==========================================================================*/
