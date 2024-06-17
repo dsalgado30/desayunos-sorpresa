@@ -25,7 +25,7 @@
     width: 100%;
 }
 
-.input-group {
+.input{
     display: flex; /* Utiliza Flexbox para alinear los inputs horizontalmente */
     gap: 10px; /* Espacio entre los inputs */
 }
