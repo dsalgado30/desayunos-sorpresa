@@ -1,0 +1,41 @@
+@import url('base/root.css');
+@import url('base/navbar.css');
+@import url('base/footer.css');
+
+.container {
+    text-align: center; /* Centra todo el contenido horizontalmente */
+}
+
+.form {
+    width: 60%; /* Ocupa el 60% del ancho del contenedor */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    text-align: left; /* Alinea el texto del formulario a la izquierda */
+}
+
+.form label {
+    display: block; /* Hace que las etiquetas de los campos de entrada se muestren en líneas separadas */
+    margin-bottom: 5px; /* Espacio entre las etiquetas y los campos de entrada */
+}
+
+.form input {
+    flex: 1; /* Los inputs ocupan todo el espacio disponible horizontalmente */
+    padding: 8px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde del input */
+    border-radius: 4px; /* Bordes redondeados */
+    width: 100%;
+}
+
+.input-group {
+    display: flex; /* Utiliza Flexbox para alinear los inputs horizontalmente */
+    gap: 10px; /* Espacio entre los inputs */
+}
+
+.form-button {
+    background-color: rgba(98, 35, 84, 0.83); /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: 16px; /* Tamaño de fuente */
+}
