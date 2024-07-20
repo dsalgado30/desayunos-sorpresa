@@ -1,0 +1,18 @@
+1. Añadido lang al <html>:
+
+- Esto ayuda a los motores de búsqueda y lectores de pantalla a determinar el idioma de la página.
+Metadatos en <head>:
+
+2. Añadido <meta charset="UTF-8"> y <meta name="viewport" content="width=device-width, initial-scale=1.0"> para definir la codificación de caracteres y hacer la página responsive.
+
+3. Uso de etiquetas semánticas:
+
+<header>: Para la navegación principal.
+<nav>: Para el menú de navegación.
+<main>: Para el contenido principal.
+<section>: Para una agrupación temática dentro del contenido principal.
+<article>: Para un contenido independiente que podría ser sindicado.
+<footer>: Para el pie de página.
+
+4. Mejoras en accesibilidad:
+Añadido alt a las imágenes.

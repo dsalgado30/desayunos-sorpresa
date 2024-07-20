@@ -1,68 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
-    <link href="./css/index.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desayunos</title>
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet">
 </head>
 
 <body>
-    <!--NAVBAR-->
-    <div class="navbar">
-        <div class="navbar-header">
-            <img src="./images/logo.png" />
-        </div>
-        <div class="navbar-container">
-            <ul class="navbar-nav">
-                <li class="navbar-item navbar-item-active"><a href="./index.html">Inicio</a></li>
-                <li class="navbar-item"><a href="./productos.html">Productos</a></li>
-                <li class="navbar-item"><a href="./agenda.html">Agenda</a></li>
-            </ul>
-        </div>
-    </div>
-    <!--NAVBAR /-->
-    <!--BODY-->
-    <div class="card-container">
-        <div class="card">
-            <div class="card-video">
-                <video src="./videos/desayuno.mp4"  controls ></video>
+    <!--HEADER-->
+    <header>
+        <div class="navbar">
+            <div class="navbar-header">
+                <img src="./images/logo.png" alt="Logo">
             </div>
-            <div class="card-content">
-                <h2 class="card-title">DESAYUNOS SORPRESA</h2>
-                <p>
-                    Imagina querer sorprender a alguien especial con un desayuno único y memorable, 
-                    pero encontrarse con pocas opciones en su pueblo. 
-                    Esa situación fue la chispa que encendió la idea del emprendimiento de desayunos sorpresa  “Dulce Encanto”.
-                    Comprendiendo la oportunidad única de ofrecer algo diferente y especial a la comunidad, 
-                    nació la idea de crear desayunos sorpresa de calidad, cuidando cada detalle para brindar 
-                    una experiencia inolvidable para cualquier ocasion. 
-                    El objetivo es traer alegría y sorpresa a cada persona que recibe uno de sus desayunos.
-                </p>
-            </div>
+            <nav class="navbar-container">
+                <ul class="navbar-nav">
+                    <li class="navbar-item navbar-item-active"><a href="./index.html">Inicio</a></li>
+                    <li class="navbar-item"><a href="./productos.html">Productos</a></li>
+                    <li class="navbar-item"><a href="./agenda.html">Agenda</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
-   
-    <!--BODY  /-->
+    </header>
+    <!--HEADER /-->
+
+    <!--MAIN CONTENT-->
+    <main>
+        <section class="card-container">
+            <article class="card">
+                <div class="card-video">
+                    <video src="./videos/desayuno.mp4" controls></video>
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">DESAYUNOS SORPRESA</h2>
+                    <p>
+                        Imagina querer sorprender a alguien especial con un desayuno único y memorable,
+                        pero encontrarse con pocas opciones en su pueblo.
+                        Esa situación fue la chispa que encendió la idea del emprendimiento de desayunos sorpresa “Dulce
+                        Encanto”.
+                        Comprendiendo la oportunidad única de ofrecer algo diferente y especial a la comunidad,
+                        nació la idea de crear desayunos sorpresa de calidad, cuidando cada detalle para brindar
+                        una experiencia inolvidable para cualquier ocasión.
+                        El objetivo es traer alegría y sorpresa a cada persona que recibe uno de sus desayunos.
+                    </p>
+                </div>
+            </article>
+        </section>
+    </main>
+    <!--MAIN CONTENT /-->
+
     <!--FOOTER-->
-    <div class="footer">
-        <div class="footer-info">
-            <div class="footer-contact">
-                <h2 class="footer-info-title">ENCUENTRANOS EN:</h2>
-                CELULAR:<br/>
-                3224129166. <br/>
-                San Agustin-Huila.
+    <footer>
+        <div class="footer">
+            <div class="footer-info">
+                <div class="footer-contact">
+                    <h2 class="footer-info-title">ENCUÉNTRANOS EN:</h2>
+                    <p>
+                        CELULAR:<br>
+                        3224129166<br>
+                        San Agustín, Huila
+                    </p>
+                </div>
+            </div>
+            <div class="footer-redes">
+                <p>Síguenos en:</p>
+                <div class="footer-redes-content">
+                    <a href="https://www.facebook.com"><img src="./images/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com"><img src="./images/instagram.png" alt="Instagram"></a>
+                </div>
             </div>
         </div>
-        <div class="footer-redes">
-            Síguenos en:
-            <div class="footer-redes-content">
-                <img src="./images/facebook.png" alt="">
-                <img src="./images/instagram.png" alt="">
-            </div>
-        </div>
-    </div>
-    <!--FOOTER  /-->
+    </footer>
+    <!--FOOTER /-->
 </body>
 
 </html>
